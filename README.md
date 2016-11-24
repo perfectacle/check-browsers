@@ -9,12 +9,12 @@ It append class with html root element.
 If you known some idea for mobile browser, you could send pull request.
 
 ## Index
-1. [Installation](#Installation)
-2. [Usage](#Usage)
-    1. [In HTML](#In-HTML)
-    2. [In module, Webpack, etc.](#In-Module-Webpack-etc)
-    3. [In CSS](#In-CSS)
-3. [Browser List](#Browser-List)
+1. [Installation](#installation)
+2. [Usage](#usage)
+    1. [In HTML](#in-html)
+    2. [In module, Webpack, etc.](#in-module-webpack-etc)
+    3. [In CSS](#in-css)
+3. [Browser List](#browser-list)
 
 ## Installation
 You must install node.js and open terminal or CMD.  
