@@ -1,0 +1,44 @@
+@charset "utf-8";
+#desc {
+  font-size: 3em
+}
+
+.ie7 #desc {
+  color: red
+}
+
+.ie8 #desc {
+  color: blue
+}
+
+.ie9 #desc {
+  color: purple
+}
+
+.ie10 #desc {
+  color: orange
+}
+
+.ie11 #desc {
+  color: green
+}
+
+.edge #desc {
+  color: gray
+}
+
+.chrome #desc {
+  color: navy
+}
+
+.firefox #desc {
+  color: lime
+}
+
+.safari #desc {
+  color: fuchsia
+}
+
+.opera #desc {
+  color: brown;
+}

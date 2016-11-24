@@ -1,0 +1,39 @@
+{
+  "name": "check-browsers",
+  "version": "1.0.0",
+  "description": "Check your desktop browser and version(Internet Explorer)",
+  "main": "dist/check-browsers.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfectacle/check-browsers.git"
+  },
+  "keywords": [
+    "check",
+    "cross",
+    "browsing",
+    "markup",
+    "html",
+    "css",
+    "web",
+    "standard",
+    "accessibility",
+    "IE",
+    "Chrome",
+    "Firefox",
+    "Safari",
+    "Opera"
+  ],
+  "author": {
+    "name": "perfectacle",
+    "email": "perfectacle@naver.com",
+    "url": "https://perfectacle.github.io/"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  }],
+  "bugs": {
+    "url": "https://github.com/perfectacle/check-browsers/issues"
+  },
+  "homepage": "https://github.com/perfectacle/check-browsers#readme"
+}
