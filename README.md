@@ -21,7 +21,7 @@ You must install node.js and open terminal or CMD.
 and change directory your project directory.  
 and type below.
 ```
-$ npm i -S detect-browser
+$ npm i -S check-browsers
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ $ npm i -S detect-browser
 ```html
 <head>
   ...
-  <script src="/node_modules/detect-browser/dist/check-browsers.min.js"></script>
+  <script src="/node_modules/check-browsers/dist/check-browsers.min.js"></script>
   ...
   <style></style>
   ...
@@ -96,7 +96,7 @@ import 'check-browsers';
 }
 
 .opera #test {
-  color: brown;
+  color: brown
 }
 ```
 
