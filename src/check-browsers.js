@@ -28,5 +28,5 @@
   }
 
   // IE: ie7~ie11, Edge: edge, Chrome: chrome, Firefox: firefox, Safari: safari, Opera: opera
-  html.className += browser;
+  html.className += html.className ? ' ' + browser : browser;
 }());
