@@ -28,7 +28,11 @@ $ npm i -S detect-browser
 ### In HTML
 ```html
 <head>
-  <script src="/node_modules/detect-browser/dist/detect-browser.min.js"></script>
+  ...
+  <script src="/node_modules/detect-browser/dist/check-browsers.min.js"></script>
+  ...
+  <style></style>
+  ...
 </head>
 ```
 You should import it in head element.  
@@ -38,12 +42,12 @@ So page styling is more fast.
 ### In module, Webpack, etc.
 #### require statement
 ```javascript
-require('detect-browser');
+require('check-browsers');
 ```
 
 #### import syntax
 ```javascript
-import 'detect-browser';
+import 'check-browsers';
 ```
 
 ### In CSS

@@ -2,6 +2,7 @@
   'use strict';
   var agent = navigator.userAgent.toLowerCase();
   var name = navigator.appName;
+  var html = document.getElementsByTagName('html')[0];
   var browser;
 
   if(name.indexOf('Explorer') > -1 || agent.indexOf('trident') > -1)  { // IE
@@ -27,5 +28,5 @@
   }
 
   // IE: ie7~ie11, Edge: edge, Chrome: chrome, Firefox: firefox, Safari: safari, Opera: opera
-  document.getElementsByTagName('html')[0].className = browser;
+  html.className += browser;
 }());
