@@ -1,4 +1,5 @@
 # Check Browsers
+[![NPM](https://nodei.co/npm/check-browsers.png)](https://www.npmjs.com/package/check-browsers)
 It is detect your browser and version(Ineternet Explorer).  
 It detects only desktop browser not mobile browser.  
 It helps your page styling for each browser.  
