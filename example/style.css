@@ -1,44 +1,48 @@
 @charset "utf-8";
-#desc {
+.test {
   font-size: 3em
 }
 
-.ie7 #desc {
+.ie6 .test, #ie6 {
+  color: salmon
+}
+
+.ie7 .test, #ie7 {
   color: red
 }
 
-.ie8 #desc {
+.ie8 .test, #ie8 {
   color: blue
 }
 
-.ie9 #desc {
+.ie9 .test, #ie9 {
   color: purple
 }
 
-.ie10 #desc {
+.ie10 .test, #ie10 {
   color: orange
 }
 
-.ie11 #desc {
+.ie11 .test, #ie11 {
   color: green
 }
 
-.edge #desc {
+.edge .test, #edge {
   color: gray
 }
 
-.chrome #desc {
+.chrome .test, #chrome {
   color: navy
 }
 
-.firefox #desc {
+.firefox .test, #firefox {
   color: lime
 }
 
-.safari #desc {
+.safari .test, #safari {
   color: fuchsia
 }
 
-.opera #desc {
+.opera .test, #opera {
   color: brown
 }

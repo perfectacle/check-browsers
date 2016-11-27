@@ -34,12 +34,13 @@ $ npm i -S check-browsers
   ...
   <script src="/node_modules/check-browsers/dist/check-browsers.min.js"></script>
   ...
-  <style></style>
+  <link rel="stylesheet" href="..." />
   ...
 </head>
 ```
-You should import it in head element.  
+You should import it in head element and before stylesheet.  
 Because importing in head is processed before page rendering.  
+and importing before stylesheet is processed before styling.  
 So page styling is more fast.
 
 ### In module, Webpack, etc.
@@ -62,6 +63,10 @@ import 'check-browsers';
 }
 
 /* each browser style */
+.ie6 #test {
+  color: salmon
+}
+
 .ie7 #test {
   color: red
 }
