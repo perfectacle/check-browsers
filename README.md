@@ -1,7 +1,8 @@
 # Check Browsers
 [![NPM](https://nodei.co/npm/check-browsers.png)](https://www.npmjs.com/package/check-browsers)
 [![npm](https://img.shields.io/npm/dt/check-browsers.svg?style=plastic)]()
-[![npm](https://img.shields.io/npm/v/check-browsers.svg?style=plastic)]()  
+[![npm](https://img.shields.io/npm/v/check-browsers.svg?style=plastic)]()
+[![jsdelivr](https://img.shields.io/badge/cdn-v1.0.4-ff69b4.svg)](https://www.jsdelivr.com/projects/check-browsers)
 It is detect your browser and version(Ineternet Explorer).  
 It detects only desktop browser not mobile browser.  
 It helps your page styling for each browser.  
@@ -32,7 +33,7 @@ $ npm i -S check-browsers
 ```html
 <head>
   ...
-  <script src="//cdn.jsdelivr.net/check-browsers/1.0.4/check-browsers.min.js"></script>
+  <script src="/node_modules/check-browsers/dist/check-browsers.min.js"></script>
   ...
   <link rel="stylesheet" href="..." />
   ...
