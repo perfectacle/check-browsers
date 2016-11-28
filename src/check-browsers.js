@@ -20,6 +20,6 @@
     browser = 'safari';
   }
 
-  // IE: ie7~ie11, Edge: edge, Chrome: chrome, Firefox: firefox, Safari: safari, Opera: opera
+  // IE: ie6~ie11, Edge: edge, Chrome: chrome, Firefox: firefox, Safari: safari, Opera: opera
   html.className += (html.className ? ' ' : '') + browser;
 }());

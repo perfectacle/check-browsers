@@ -20,8 +20,8 @@ If you known some idea for mobile browser, you could send pull request.
 3. [Browser List](#browser-list)
 
 ## Installation
-You must install node.js and open terminal or CMD.  
-and change directory your project directory.  
+You must install node.js and open terminal or cmd.  
+and change directory to your project directory.  
 and type below.
 ```
 $ npm i -S check-browsers
@@ -32,7 +32,7 @@ $ npm i -S check-browsers
 ```html
 <head>
   ...
-  <script src="/node_modules/check-browsers/dist/check-browsers.min.js"></script>
+  <script src="//cdn.jsdelivr.net/check-browsers/1.0.4/check-browsers.min.js"></script>
   ...
   <link rel="stylesheet" href="..." />
   ...
