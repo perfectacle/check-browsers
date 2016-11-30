@@ -1,6 +1,6 @@
 {
   "name": "check-browsers",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Check your desktop browser and version(Internet Explorer)",
   "main": "dist/check-browsers.min.js",
   "repository": {

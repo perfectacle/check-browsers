@@ -1,12 +1,13 @@
 # Check Browsers
 [![NPM](https://nodei.co/npm/check-browsers.png)](https://www.npmjs.com/package/check-browsers)
-[![npm](https://img.shields.io/npm/dt/check-browsers.svg?style=plastic)]()
-[![npm](https://img.shields.io/npm/v/check-browsers.svg?style=plastic)]()
-[![jsdelivr](https://img.shields.io/badge/cdn-v1.0.4-ff69b4.svg)](https://www.jsdelivr.com/projects/check-browsers)  
+[![jsdelivr](https://img.shields.io/badge/cdn-v1.0.4-ff69b4.svg)](https://www.jsdelivr.com/projects/check-browsers)
+![npm](https://img.shields.io/npm/dt/check-browsers.svg?style=plastic)
+![npm](https://img.shields.io/npm/v/check-browsers.svg?style=plastic)
+  
 It is detect your browser and version(Ineternet Explorer).  
 It detects only desktop browser not mobile browser.  
 It helps your page styling for each browser.  
-It append class with html root element.  
+It appends class with html root element.  
 ```html
 <html class="browser type">
 ```
@@ -21,11 +22,17 @@ If you known some idea for mobile browser, you could send pull request.
 3. [Browser List](#browser-list)
 
 ## Installation
-You must install node.js and open terminal or cmd.  
-and change directory to your project directory.  
-and type below.
+Using CDN: 
+```
+<script src="//cdn.jsdelivr.net/check-browsers/1.0.4/check-browsers.min.js"></script>
+```
+Using npm:
 ```
 $ npm i -S check-browsers
+```
+Using yarn:
+```
+$ yarn add check-browsers
 ```
 
 ## Usage
@@ -115,4 +122,4 @@ import 'check-browsers';
 * Google Chrome: chrome
 * Mozilla Firefox: firefox
 * Apple Safari: safari
-* Opera: Opera
+* Opera: opera
