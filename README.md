@@ -24,7 +24,7 @@ If you known some idea for mobile browser, you could send pull request.
 ## Installation
 Using CDN: 
 ```
-<script src="//cdn.jsdelivr.net/check-browsers/1.0.4/check-browsers.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/check-browsers@1.0.8/dist/check-browsers.min.js"></script>
 ```
 Using npm:
 ```
